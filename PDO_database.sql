@@ -1,0 +1,31 @@
+CREATE TABLE `etudiant_L3` (
+    `Numetu` INT(2) NOT NULL AUTO_INCREMENT ,
+    `TP` SMALLINT(1) NOT NULL , 
+    `sousgroupe` SMALLINT(1) NOT NULL , 
+    `nom` VARCHAR(25) NOT NULL , 
+    `prenom` VARCHAR(25) NOT NULL , 
+    `age` SMALLINT(2) NOT NULL , 
+    PRIMARY KEY (`Numetu`)) ENGINE = InnoDB;
+
+INSERT INTO `etudiant_l3`(`Numetu`, `TP`, `sousgroupe`, `nom`, `prenom`, `age`) VALUES 
+	(1,1,1,'AUBERTOT','Emma',19),
+	(2,1,1,'BERISSET','Hugo',20),
+	(3,1,1,'BUHENDWA NZUKA','Jevic',18),
+	(4,1,1,'BUJAULT','Clara',19),
+	(5,1,1,'CAILLAUD','Bertille',19),
+	(6,1,1,'CAUSSE','Marylou',19),
+	(7,1,1,'CERQUEIRA','Alexis',20),
+	(8,1,1,'CHASTAINGT','Thomas',20),
+	(9,1,1,'CHAUMET','Kaily',18),
+	(10,1,1,'DELPIROU','Corentin',17),
+	(11,1,1,'DEWITTE','Lisa',19),
+	(12,1,2,'DIOP','Amadou Tidiane',19),
+	(13,1,2,'DOSPITAL','Marion',18),
+	(14,1,2,'DUTHEIL','Kylian',18),
+	(15,1,2,'FAVRE','Jules',19),
+	(16,1,2,'GRAICHI','Nassima',19),
+	(17,1,2,'HUBERT','Luc',20),
+	(18,1,2,'KAFABA','Alimou',20),
+	(19,1,2,'LAIR','Lauranne',21),
+	(20,1,2,'SOCHARD','Ophelie',21),
+	(21,1,2,'AUBERTOT','EMMA',19);
