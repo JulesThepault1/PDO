@@ -7,7 +7,7 @@ CREATE TABLE `etudiant_L3` (
     `age` SMALLINT(2) NOT NULL , 
     PRIMARY KEY (`Numetu`)) ENGINE = InnoDB;
 
-INSERT INTO `etudiant_l3`(`Numetu`, `TP`, `sousgroupe`, `nom`, `prenom`, `age`) VALUES 
+INSERT INTO `etudiant_L3`(`Numetu`, `TP`, `sousgroupe`, `nom`, `prenom`, `age`) VALUES 
 	(1,1,1,'AUBERTOT','Emma',19),
 	(2,1,1,'BERISSET','Hugo',20),
 	(3,1,1,'BUHENDWA NZUKA','Jevic',18),
